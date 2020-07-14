@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
 import axios from 'axios'
-import Header from './ui/Header'
+import Header from './components/ui/Header'
 import CharacterGrid from './components/characters/CharacterGrid'
-import Search from './ui/Search'
+import Search from './components/ui/Search'
 
 
 const App = () => {
@@ -18,7 +18,7 @@ const App = () => {
         `https://www.breakingbadapi.com/api/characters?name=${query}`
       )
 
-      { console.log(result.data) }
+      // { console.log(result.data) }
 
       setItems(result.data)
       setIsLoading(false)
