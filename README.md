@@ -1,5 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+To view the app live click [here](https://breaking-bad-cast.cbaez1223.vercel.app)
+
 ## Available Scripts
 
 In the project directory, you can run:
